@@ -1,30 +1,21 @@
 {
   "schema": 1,
-  "version": 2026102704,
+  "version": 2026102700,
   "minAppVersionCode": 1,
   "targets": {
     "com.instagram.android": {
       "tab": {
-        "viewId": "com.instagram.android:id/clips_tab_renamed",
-        "containerViewIds": [
-          "com.instagram.android:id/tab_bar",
-          "com.instagram.android:id/ls_nav_bar"
-        ],
-        "contentDescriptions": [
-          "없는탭"
-        ]
+        "viewId": "com.instagram.android:id/clips_tab",
+        "containerViewIds": ["com.instagram.android:id/tab_bar", "com.instagram.android:id/ls_nav_bar"],
+        "contentDescriptions": ["릴스", "Reels"]
       },
       "pagerViewId": "com.instagram.android:id/clips_viewer_view_pager"
     },
     "com.google.android.youtube": {
       "tab": {
         "viewId": null,
-        "containerViewIds": [
-          "com.google.android.youtube:id/pivot_bar"
-        ],
-        "contentDescriptions": [
-          "Shorts"
-        ]
+        "containerViewIds": ["com.google.android.youtube:id/pivot_bar"],
+        "contentDescriptions": ["Shorts"]
       },
       "pagerViewId": "com.google.android.youtube:id/reel_recycler",
       "pageViewId": "com.google.android.youtube:id/reel_player_page_container"
