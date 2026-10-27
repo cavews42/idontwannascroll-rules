@@ -1,18 +1,17 @@
 {
   "schema": 1,
-  "version": 2026102702,
+  "version": 2026102704,
   "minAppVersionCode": 1,
   "targets": {
     "com.instagram.android": {
       "tab": {
-        "viewId": null,
+        "viewId": "com.instagram.android:id/clips_tab_renamed",
         "containerViewIds": [
           "com.instagram.android:id/tab_bar",
           "com.instagram.android:id/ls_nav_bar"
         ],
         "contentDescriptions": [
-          "릴스",
-          "Reels"
+          "없는탭"
         ]
       },
       "pagerViewId": "com.instagram.android:id/clips_viewer_view_pager"
